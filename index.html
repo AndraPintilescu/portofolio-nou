@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andra Pintilescu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/inima.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <section class="header">
+      <nav>
+        <div class="logo"><span class="litera">A</span>ndra <span class="litera">P</span>intilescu</div>
+      </nav>
+      <img src="images/creier.svg" class="creier">
+      <div class="text">
+        <p>Computer Science Student</p>
+        <h1>Hello, I'm Andra Pintilescu, <br> a computer science student <br> currently living in Bucharest, RO</h1>
+      </div>
+  </section>
+
+  <section class="about">
+      <div class="row">
+        <div class="column-left">
+          <img src="images/profile.jpg" alt="">
+        </div>
+        <div class="column-right">
+          <h1 class="subtitlu">About Me</h1>
+          <p class="descriere">Fully committed to the philosophy of life-long learning, I’m a computer science student with a deep passion for C++, Python, HTML, CSS, JavaScript and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit and drinking coffee.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>App Development</span><br>Building Android/iOS</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>february 2022 - october 2022</span><br>Data Entry Operator at DO&MA</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2022 - present</span><br>BSc Computer Science</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="contact">
+        <div class="contact-details">
+          <h1 class="subtitlu">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:andra.npintilescu@gmail.com"> andra.npintilescu@gmail.com</a></p>
+          <p><i class="fa-solid fa-phone"></i><a href="tel:+40753707914"> +40753707914</a></p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/andra-nicoleta-pintilescu-09398a259/"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="images/CV.pdf" download class="button">Download CV</a>
+        </div>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
